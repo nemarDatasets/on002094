@@ -2,8 +2,47 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Single-pulse open-loop TMS-EEG dataset",
+  "description": "A single-pulse transcranial magnetic stimulation (TMS) combined with electroencephalography (EEG) dataset acquired in open-loop configuration. This dataset provides concurrent TMS-EEG recordings suitable for investigating cortical responses to magnetic stimulation and characterizing brain reactivity to non-invasive neuromodulation. Includes concurrent electromyography (EMG) recordings for motor response monitoring. The dataset contains recordings from participants across multiple sessions with raw TMS-EEG and EMG data in BIDS format.",
   "license": "CC0",
   "dataset_type": "raw",
+  "keywords": [
+    {
+      "term": "TMS"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "transcranial magnetic stimulation",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D050781"
+    },
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "Motor Cortex",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D009044"
+    },
+    {
+      "term": "open-loop stimulation"
+    },
+    {
+      "term": "cortical excitability"
+    },
+    {
+      "term": "TMS-evoked potentials"
+    },
+    {
+      "term": "TEP"
+    },
+    {
+      "term": "EMG"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on002094",
@@ -19,15 +58,20 @@
       "identifier": "10.18112/openneuro.ds002094",
       "identifier_type": "DOI",
       "relation_type": "IsVersionOf"
+    },
+    {
+      "identifier": "10.82901/nemar.on002094",
+      "identifier_type": "DOI",
+      "relation_type": "IsVersionOf"
     }
   ],
+  "resource_type_specific": "EMG Dataset",
   "modalities": [
     "emg",
     "eeg"
   ],
-  "resource_type_specific": "EMG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "42.4 GB (311 files)"
   ],
   "formats": [
     ".eeg",
@@ -39,43 +83,8 @@
     ".txt",
     ".vhdr",
     ".vmrk",
-    ".xlsx"
+    ".xlsx",
+    ".yml"
   ],
-  "description": "A transcranial magnetic stimulation combined with electroencephalography (TMS-EEG) dataset consisting of single-pulse open-loop stimulation recordings. This dataset is mirrored from OpenNeuro (ds002094) and provides neurophysiological measurements of brain responses to focal magnetic stimulation, suitable for investigating cortical excitability, connectivity, and TMS-induced neural dynamics. Original dataset creators: [Authors from OpenNeuro ds002094].",
-  "keywords": [
-    {
-      "term": "TMS"
-    },
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "EMG"
-    },
-    {
-      "term": "transcranial magnetic stimulation"
-    },
-    {
-      "term": "electroencephalography"
-    },
-    {
-      "term": "electromyography"
-    },
-    {
-      "term": "cortical excitability"
-    },
-    {
-      "term": "open-loop stimulation"
-    },
-    {
-      "term": "TMS-EEG"
-    },
-    {
-      "term": "single-pulse stimulation"
-    },
-    {
-      "term": "brain stimulation"
-    }
-  ],
-  "source_hash": "394f71e8ee45b03e4ef6159ee05685809e69f81bf2e7dcc2760422421e657521"
+  "source_hash": "346d900f85bbc1589044b5a1a4a1c9cbc07b1c1e29b7bb2004603f892f920c87"
 }
