@@ -1,0 +1,19 @@
+{
+  "version": "2.0",
+  "dataset_id": "on002094",
+  "source": "openneuro",
+  "source_id": "ds002094",
+  "title": "Single-pulse open-loop TMS-EEG dataset",
+  "authors": {},
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.3.0",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ]
+}
