@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Single-pulse open-loop TMS-EEG dataset",
-  "description": "A single-pulse transcranial magnetic stimulation (TMS) combined with electroencephalography (EEG) dataset acquired in open-loop configuration. This dataset provides concurrent TMS-EEG recordings suitable for investigating cortical responses to magnetic stimulation and characterizing brain reactivity to non-invasive neuromodulation. Includes concurrent electromyography (EMG) recordings for motor response monitoring. The dataset contains recordings from participants across multiple sessions with raw TMS-EEG and EMG data in BIDS format.",
+  "description": "A single-pulse transcranial magnetic stimulation (TMS) combined with electroencephalography (EEG) dataset acquired in open-loop configuration. This dataset provides concurrent TMS-EEG recordings suitable for investigating cortical responses to magnetic stimulation and characterizing brain reactivity to non-invasive neuromodulation. The dataset includes recordings from multiple subjects across multiple sessions with concurrent EEG and TMS measurements. This dataset is mirrored on NEMAR from OpenNeuro (ds002094).",
   "license": "CC0",
   "dataset_type": "raw",
   "keywords": [
@@ -13,7 +13,7 @@
       "term": "EEG"
     },
     {
-      "term": "transcranial magnetic stimulation",
+      "term": "Transcranial Magnetic Stimulation",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D050781"
     },
@@ -23,24 +23,19 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     },
     {
-      "term": "Motor Cortex",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D009044"
-    },
-    {
       "term": "open-loop stimulation"
     },
     {
       "term": "cortical excitability"
     },
     {
-      "term": "TMS-evoked potentials"
+      "term": "brain stimulation"
     },
     {
-      "term": "TEP"
+      "term": "neuromodulation"
     },
     {
-      "term": "EMG"
+      "term": "cortical reactivity"
     }
   ],
   "related_identifiers": [
