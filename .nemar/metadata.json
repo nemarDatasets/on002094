@@ -2,23 +2,17 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Single-pulse open-loop TMS-EEG dataset",
-  "description": "A single-pulse transcranial magnetic stimulation (TMS) combined with electroencephalography (EEG) dataset acquired in open-loop configuration. This dataset provides concurrent TMS-EEG recordings suitable for investigating cortical responses to magnetic stimulation and characterizing brain reactivity to non-invasive neuromodulation. The dataset includes recordings from multiple subjects across multiple sessions with concurrent EEG and TMS measurements. This dataset is mirrored on NEMAR from OpenNeuro (ds002094).",
+  "description": "A single-pulse transcranial magnetic stimulation (TMS) combined with electroencephalography (EEG) dataset acquired in open-loop configuration. This dataset provides concurrent TMS-EEG recordings suitable for investigating cortical responses to magnetic stimulation and characterizing brain reactivity to non-invasive neuromodulation. The dataset comprises recordings from multiple subjects across multiple sessions with concurrent TMS-EEG acquisition.",
   "license": "CC0",
   "dataset_type": "raw",
   "keywords": [
     {
-      "term": "TMS"
-    },
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "Transcranial Magnetic Stimulation",
+      "term": "TMS",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D050781"
     },
     {
-      "term": "Electroencephalography",
+      "term": "EEG",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     },
@@ -26,16 +20,9 @@
       "term": "open-loop stimulation"
     },
     {
-      "term": "cortical excitability"
-    },
-    {
-      "term": "brain stimulation"
-    },
-    {
-      "term": "neuromodulation"
-    },
-    {
-      "term": "cortical reactivity"
+      "term": "cortical excitability",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D003655"
     }
   ],
   "related_identifiers": [
@@ -60,9 +47,8 @@
       "relation_type": "IsVersionOf"
     }
   ],
-  "resource_type_specific": "EMG Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
-    "emg",
     "eeg"
   ],
   "sizes": [
