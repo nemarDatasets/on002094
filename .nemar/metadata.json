@@ -1,19 +1,81 @@
 {
   "version": "2.0",
-  "dataset_id": "on002094",
-  "source": "openneuro",
-  "source_id": "ds002094",
+  "pipeline_stage": "enriched",
   "title": "Single-pulse open-loop TMS-EEG dataset",
-  "authors": {},
   "license": "CC0",
   "dataset_type": "raw",
-  "related_identifiers": [],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.3.0",
-  "recording_modality": [
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/nemarDatasets/on002094",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on002094",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds002094",
+      "identifier_type": "DOI",
+      "relation_type": "IsVersionOf"
+    }
+  ],
+  "modalities": [
+    "emg",
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EMG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".gitattributes",
+    ".json",
+    ".mat",
+    ".md",
+    ".tsv",
+    ".txt",
+    ".vhdr",
+    ".vmrk",
+    ".xlsx"
+  ],
+  "description": "A transcranial magnetic stimulation combined with electroencephalography (TMS-EEG) dataset consisting of single-pulse open-loop stimulation recordings. This dataset is mirrored from OpenNeuro (ds002094) and provides neurophysiological measurements of brain responses to focal magnetic stimulation, suitable for investigating cortical excitability, connectivity, and TMS-induced neural dynamics. Original dataset creators: [Authors from OpenNeuro ds002094].",
+  "keywords": [
+    {
+      "term": "TMS"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "EMG"
+    },
+    {
+      "term": "transcranial magnetic stimulation"
+    },
+    {
+      "term": "electroencephalography"
+    },
+    {
+      "term": "electromyography"
+    },
+    {
+      "term": "cortical excitability"
+    },
+    {
+      "term": "open-loop stimulation"
+    },
+    {
+      "term": "TMS-EEG"
+    },
+    {
+      "term": "single-pulse stimulation"
+    },
+    {
+      "term": "brain stimulation"
+    }
+  ],
+  "source_hash": "394f71e8ee45b03e4ef6159ee05685809e69f81bf2e7dcc2760422421e657521"
 }
